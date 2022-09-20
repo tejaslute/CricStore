@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-wrapper{
+    display: flex;
+}
+.sidebar{
+    position: fixed;
+    flex-grow: 0;
+    top: 5rem;
+    height: 100%;
+    border-right: 2px solid black;
+    padding: 0rem 1.25rem;
+    width: 12.5rem;
+}
+.clear-filters{
+    cursor: pointer;
+}
+.products-list{
+    flex-grow: 1;
+    margin-top: 5.62rem;
+    margin-left: 15.65rem;
+    padding: 1.25rem 3.12rem;
+}
+/* Sidebar Items */
+.product-filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-filter>a{
+    text-decoration: none;
+    color: black;
+}
+/* Slider */
+.slider-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.slider{
+    max-width: 25rem;
+}
+.slider-value{
+    text-align: center;
+}
+/*  Slider ends */
+.categories{
+    display: flex;
+    flex-direction: column;
+}
+label>span{
+    font-size:16px;
+}
+.input-select{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    column-gap: 10px;
+}
+.filter-feature{
+    margin: 10px 2px;
+    padding: 6px;
+}
+.filter-actions{
+    border-bottom: 0;
+}
+.slider{
+    max-width: 200px;
+}
+input[type="radio"]{
+    margin-right: 0rem;
+}
